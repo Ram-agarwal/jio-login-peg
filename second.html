@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jio Careers</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: cornsilk;
+            height: 30px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .nav {
+            display: flex;
+            gap: 20px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .button-primary {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        .button-secondary {
+            background-color: #fff;
+            color: #007bff;
+            border: 1px solid #007bff;
+        }
+        .sumbit{
+            background-color: #007bff;
+        
+        }
+        /* yes */
+        .containers {
+  max-width: 100%;
+  margin: 40px auto;
+  padding: 20px;
+  
+  background-color:white;
+}
+
+.header {
+    background-color: white;
+  color: black;
+  padding: 10px;
+}
+.header h2 {
+  margin: 0%;
+}
+h1{
+    margin-left: 40%;
+}
+
+
+.form-container {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-group input,.form-group textarea,.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.form-group small {
+  color: #666;
+  font-size: 12px;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #444;
+}
+.home{
+    color: red;
+    
+}
+marquee{
+    color: red;
+}
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .nav {
+                flex-direction: column;
+            }
+
+            .buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="Jio Logo">
+            
+        </div>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Job Opportunities</a>
+        </div>
+        <div class="buttons">
+            <button class="button button-secondary">Alumni Corner</button>
+            <button class="button button-secondary">Validate Your Offer</button>
+            <button class="button button-primary">Login & Apply</button>
+        </div>
+    </div>
+    <div class="containers">
+        <div class="header">
+          <h2 class="home">Home</h2>
+        </div>
+        <div>
+            <marquee>Candidate Profile ,Candidate Profile,Candidate Profile,Candidate Profile,Candidate Profile,Candidate Profile,Candidate Profile,Candidate Profile,Candidate Profile,Candidate Profile</marquee>
+        </div>
+        <div class="form-container">
+          <form>
+            <h2>Create Profile</h2>
+            <p>Provide your details to setup your account</p>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="about-you">About you</label>
+              <textarea id="about-you" placeholder="Tell us about yourself"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" id="password" placeholder="Enter your password">
+            </div>
+            <div class="form-group">
+              <label for="confirm-password">Confirm Password</label>
+              <input type="password" id="confirm-password" placeholder="Confirm your password">
+            </div>
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" placeholder="Enter your first name">
+              <small>Name must be as per Aadhar Card</small>
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" placeholder="Enter your last name">
+            </div>
+            <div class="form-group">
+              <label for="dob">DOB (dd/mm/yyyy)</label>
+              <input type="date" id="dob" placeholder="Enter your date of birth">
+              <small>Date of Birth must be as per Aadhar Card</small>
+            </div>
+            <div class="form-group">
+              <label for="country">Country</label>
+              <select id="country">
+                <option value="India">India</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" placeholder="Enter your phone number">
+              <small>+91</small>
+            </div>
+            <div class="form-group">
+              <label for="captcha">Enter Captcha</label>
+              <input type="text" id="captcha" placeholder="Enter the captcha code">
+              <small>ngz4sIC</small>
+            </div>
+            <button class="sumbit">confirm</button>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
